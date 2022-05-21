@@ -1,0 +1,21 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	width: 100%;
+	margin: 0;
+}
+
+p#btn{
+	width: 200px;
+	background-color: #FF69B4;
+	color: #eee;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 20px;
+	height: 60px;
+	margin: 20% auto;
+	cursor: pointer;
+	font-size: 20px;
+}

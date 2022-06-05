@@ -7,6 +7,11 @@ body{
 	margin: 0;
 }
 
+h1{
+	text-transform: uppercase;
+	text-align: center;
+}	
+
 p#btn{
 	width: 200px;
 	background-color: #FF69B4;

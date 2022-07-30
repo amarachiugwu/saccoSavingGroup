@@ -65,7 +65,6 @@ h2 {
 
 input,
 select,
-textarea,
 button {
   padding: 1rem;
   border-radius: 0.5rem;
@@ -83,11 +82,22 @@ button {
 
 input:hover,
 select:hover,
-textarea:hover,
 button:hover {
   border: 0.1rem #404040 solid;
 }
 
+#btn{
+	display: block;
+	width: 180px;
+	background-color: #f02020;
+	color: #eee;
+	text-transform: uppercase;
+	padding: 10px;
+	height: 40px;
+	margin: 20px auto;
+	cursor: pointer;
+	font-size: 15px;
+}
 
 /* Header */
 header a {
@@ -109,15 +119,41 @@ a.brand {
 	font-weight: bold;
 }
 
-#btn{
-	display: block;
-	width: 180px;
-	background-color: #f02020;
-	color: #eee;
-	text-transform: uppercase;
-	padding: 10px;
-	height: 40px;
-	margin: 20px auto;
-	cursor: pointer;
-	font-size: 15px;
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.row.center {
+	justify-content: center;
+}
+
+.row.top {
+	align-items: flex-start;
+}
+
+.row.start {
+	justify-content: flex-start;
+}
+
+.col-1 {
+	flex: 1 1 25rem;
+}
+
+.col-2 {
+	flex: 2 1 50rem;
+}
+
+.col-3 {
+	flex: 32 1 75rem;
+}
+
+.min-30 {
+	min-width: 30rem;
+}
+
+.p-1 {
+	padding: 1rem;
 }
